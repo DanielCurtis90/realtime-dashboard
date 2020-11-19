@@ -1,8 +1,6 @@
 import paho.mqtt.client as mqtt
 import time, csv, ssl, json, math
 from datetime import datetime
-import matplotlib.pyplot as plt
-import matplotlib.animation as animation
 import threading
 import numpy as np
 import pandas as pd

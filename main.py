@@ -57,7 +57,7 @@ google_map_options = GMapOptions(lat = lat,
                                  map_type = map_type, 
                                  zoom = zoom)          
 # generating the Google map 
-google_api_key = "AIzaSyBp1hJ4YP-7O4rdrDE5-jrIV5PPq6bTHEo" 
+google_api_key = "YOUR KEY HERE!" 
 title = "Real Time Taxi Data and Location"
 google_map = gmap(google_api_key, 
                   google_map_options, 
@@ -265,9 +265,9 @@ def client_setup():
         
     
     #Define our solace url, User and PW (Note that these should be probably not be hardcoded in here)
-    url = "mr-g3jw4qykb4h.messaging.solace.cloud"
-    username = "public-taxi-user"
-    password = "iliketaxis"
+    url = "URL HERE"
+    username = "USERNAME HERE"
+    password = "PASSWORD HERE"
     #Make an mqtt Client object
     sol_client = mqtt.Client() 
     #Give our client the user and password

@@ -57,7 +57,7 @@ google_map_options = GMapOptions(lat = lat,
                                  map_type = map_type, 
                                  zoom = zoom)          
 # generating the Google map 
-google_api_key = "AIzaSyBp1hJ4YP-7O4rdrDE5-jrIV5PPq6bTHEo" 
+google_api_key = "YOUR KEY HERE!" 
 title = "Real Time Taxi Data and Location"
 google_map = gmap(google_api_key, 
                   google_map_options, 
